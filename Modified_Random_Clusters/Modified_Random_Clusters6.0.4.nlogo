@@ -333,10 +333,10 @@ end
 ;---------------
 @#$#@#$#@
 GRAPHICS-WINDOW
-221
-66
-637
-483
+223
+109
+639
+526
 -1
 -1
 8.0
@@ -360,10 +360,10 @@ ticks
 30.0
 
 SLIDER
-28
-109
-200
-142
+30
+152
+202
+185
 number-of-types
 number-of-types
 1
@@ -375,10 +375,10 @@ NIL
 HORIZONTAL
 
 SLIDER
-27
-198
-199
-231
+29
+241
+201
+274
 cluster-probability
 cluster-probability
 0.05
@@ -390,10 +390,10 @@ NIL
 HORIZONTAL
 
 BUTTON
-28
-70
-190
-103
+30
+113
+192
+146
 NIL
 generate-landscape
 NIL
@@ -407,20 +407,20 @@ NIL
 1
 
 CHOOSER
-25
-301
-164
-346
+27
+344
+166
+389
 Neighbourhood
 Neighbourhood
 "von Neumann" "Moore"
 0
 
 PLOT
-648
-61
-848
-211
+650
+104
+850
+254
 Cluster-Distribution
 Area
 Count
@@ -435,10 +435,10 @@ PENS
 "default" 1.0 1 -16777216 true "" ""
 
 PLOT
-648
-215
-848
-365
+650
+258
+850
+408
 Count-Clusters-by-Cover
 Cover
 Count
@@ -453,10 +453,10 @@ PENS
 "default" 1.0 1 -16777216 true "" ""
 
 PLOT
-649
-368
-849
-518
+651
+411
+851
+561
 Cover-By-Area
 Cover
 Area
@@ -471,10 +471,10 @@ PENS
 "default" 1.0 1 -16777216 true "" ""
 
 BUTTON
-27
-420
-135
-453
+29
+463
+137
+496
 NIL
 export-map
 NIL
@@ -488,40 +488,40 @@ NIL
 1
 
 TEXTBOX
-31
-145
-181
-177
+33
+188
+183
+220
 Number of types to generate in the landscape
 13
 0.0
 1
 
 TEXTBOX
-31
-233
-208
-297
+33
+276
+210
+340
 Probability for percolation map generation (see Step A Saura & Martinez-Millan 2000)
 13
 0.0
 1
 
 TEXTBOX
-28
-355
-204
-419
+30
+398
+206
+462
 Neighbourhood rule in percolation (von Neumann is neighbors4)
 13
 0.0
 1
 
 TEXTBOX
-29
-464
-198
-512
+31
+507
+200
+555
 ESRI ascii grid format (to \\\"export.asc\\\", overwritten if exists; does not work online)
 13
 0.0
@@ -538,11 +538,11 @@ Modified random clusters method for landscape pattern simulation
 1
 
 TEXTBOX
-231
-32
-658
-63
-NetLogo code by  by James D.A. Millington (http://www.landscapemodelling.net) based on method by Saura & Martinez-Millan (2000, httpp://dx.doi.org/10.1023/A:1008107902848)
+225
+52
+652
+93
+NetLogo code by James D.A. Millington (http://www.landscapemodelling.net) based on method by Saura & Martinez-Millan (2000, httpp://dx.doi.org/10.1023/A:1008107902848)
 10
 0.0
 1
